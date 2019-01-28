@@ -1,0 +1,192 @@
+body {
+  background-color: black;
+}
+
+.navbar {
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#logo-style {
+  font-family: 'Kaushan Script', cursive;
+  color: #d90202;
+  text-shadow: -3px 5px 5px rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  width: 20%;
+}
+
+.menu-style {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  text-shadow: -3px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+#logo img {
+  width: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+#welcome {
+  font-size: 40px;
+  font-family: 'Kaushan Script', cursive;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#appointment {
+  font-size: 40px;
+  font-family: 'Kaushan Script', cursive;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#bar-color {
+  background-color: rgb(46,46,57);
+}
+
+#center-info {
+  background-color: rgb(46, 46, 57);
+  border-radius: 15px;
+  border: 1px solid red;
+  height: 300px;
+  width: 85%;
+}
+
+.booknow {
+  color: #d90202;
+  font-size: 38px;
+  background-color: rgb(88,88,94);
+  padding: 5px 20px;
+  margin-top: 15px;
+  border-radius: 30px;
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  width: 230px;
+}
+
+.booknow:hover {
+  color: #d90202;
+  font-size: 38px;
+  background-color: rgb(88,88,94);
+  padding: 5px 20px;
+  margin-top: 15px;
+  border-radius: 30px;
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.8);
+  border: 1px solid white;
+  width: 230px;
+}
+
+#center-bar {
+  margin-top: 30px;
+}
+
+.fab.fa-instagram {
+  color: rgb(217, 2, 2);
+  font-size: xx-large;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.fab.fa-instagram a {
+}
+
+a {
+  color: white;
+}
+
+.permanent-marker {
+  font-size: 25px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.fas.fa-phone {
+  color: #d90202;
+  margin-bottom: 1.5rem;
+}
+
+.fas.fa-map-marker-alt {
+  color: #d90202;
+}
+
+.text-shadow {
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#info a {
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#info a:hover {
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+
+.location {
+  font-size: medium;
+}
+
+.instagram {
+  font-size: xx-large;
+}
+
+#pics {
+  background-color: rgb(98, 31, 31);
+  margin-top: 50px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+@media (min-width: 300px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.8);
+    width: 40%;
+  }
+}
+
+@media (min-width: 576px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.8);
+    width: 65%;
+  }
+}
+
+@media (min-width: 768px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.8);
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px 10px 30px rgba(0, 0, 0, 0.8);
+    width: 80%;
+  }
+}
+

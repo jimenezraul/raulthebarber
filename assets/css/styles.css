@@ -19,9 +19,9 @@ body {
 }
 
 .menu-style {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 24px;
+  font-size: 18px;
   text-shadow: -3px 5px 5px rgba(0, 0, 0, 0.8);
+  font-family: 'Kaushan Script', cursive;
 }
 
 #logo img {

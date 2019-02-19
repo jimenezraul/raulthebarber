@@ -98,3 +98,7 @@ body.side-menu-visible #side-menu.side-menu-left {
   margin-top: 20px;
 }
 
+#pagination {
+  padding-top: 15px;
+}
+

@@ -112,3 +112,7 @@ body.side-menu-visible #side-menu.side-menu-left {
   font-size: 10px;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  color: white !important;
+}
+

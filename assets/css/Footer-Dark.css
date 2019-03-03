@@ -156,6 +156,7 @@
 
 .logo-face {
   width: 60px;
+  display: none;
 }
 
 #logo-style {

@@ -49,11 +49,11 @@ html, body {
 }
 
 #bar-color {
-  background-color: rgb(46,46,57);
+  background-color: #424951;
 }
 
 #center-info {
-  background-color: rgb(46, 46, 57);
+  background-color: #424951;
   border-radius: 15px;
   border: 1px solid red;
   height: 400px;

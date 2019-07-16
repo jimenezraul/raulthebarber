@@ -56,14 +56,13 @@ html, body {
   background-color: #424951;
   border-radius: 15px;
   border: 1px solid red;
-  height: 400px;
+  height: 250px;
   width: 85%;
 }
 
 .booknow {
   font-size: 30px;
   padding: 2px 70px;
-  margin-top: 15px;
   border-radius: 30px;
   border: 2px solid white;
 }
@@ -114,16 +113,6 @@ a {
 
 .text-shadow {
   text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
-}
-
-#info a {
-  text-shadow: -3px 2px 5px rgba(0,0,0,0.8);
-}
-
-#info a:hover {
-  text-shadow: 2px 2px 20px rgba(255,255,255,0.8);
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .location {
@@ -193,5 +182,39 @@ a {
 
 .facebook {
   font-size: xx-large;
+}
+
+.permanent-marker.phone a:hover {
+  color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0);
+  padding: 1px 52px;
+  border-radius: 25px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.permanent-marker.phone a {
+  color: black;
+  background-color: #ffffff;
+  padding: 1px 52px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.permanent-marker.location a {
+  color: black;
+  background-color: white;
+  padding: 9px 22px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.permanent-marker.location a:hover {
+  color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0);
+  padding: 9px 22px;
+  border-radius: 25px;
+  border: 2px solid white;
+  text-decoration: none;
 }
 

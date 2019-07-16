@@ -116,3 +116,12 @@ body.side-menu-visible #side-menu.side-menu-left {
   color: white !important;
 }
 
+.permanent-marker.location {
+  margin-top: 39px;
+  margin-bottom: 20px;
+}
+
+.permanent-marker.phone {
+  margin-top: 20px;
+}
+

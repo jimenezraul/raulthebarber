@@ -100,7 +100,7 @@ a {
 }
 
 .permanent-marker {
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -120,7 +120,7 @@ a {
 }
 
 .location {
-  font-size: smaller;
+  font-size: medium;
 }
 
 .instagram {
@@ -204,7 +204,7 @@ a {
 .permanent-marker.location a {
   color: black;
   background-color: white;
-  padding: 6px 28px;
+  padding: 8px 24px;
   border-radius: 25px;
   border: 2px solid white;
 }
@@ -212,7 +212,7 @@ a {
 .permanent-marker.location a:hover {
   color: rgb(255,255,255);
   background-color: rgba(255,255,255,0);
-  padding: 6px 28px;
+  padding: 8px 24px;
   border-radius: 25px;
   border: 2px solid white;
   text-decoration: none;

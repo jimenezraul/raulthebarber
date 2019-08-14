@@ -130,28 +130,13 @@ body.side-menu-visible #side-menu.side-menu-left {
 }
 
 @media (min-width: 300px) {
-  .book-now:hover {
-    background-color: #ffffff;
-    border-radius: 25px;
-    border: 2px solid white;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
-    font-weight: 700;
-    font-style: italic;
-    padding: 0px;
-    width: 100%;
-  }
-}
-
-@media (min-width: 300px) {
   .book-now {
     background-color: rgba(0,123,255,0);
     border-radius: 25px;
     color: white;
     border: 2px solid white;
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: 25px;
     font-weight: 700;
     font-style: italic;
     padding: 0px;
@@ -159,19 +144,10 @@ body.side-menu-visible #side-menu.side-menu-left {
   }
 }
 
-@media (min-width: 768px) {
-  .book-now:hover {
-    background-color: #ffffff;
-    border-radius: 25px;
-    color: black;
-    border: 2px solid white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
-    font-weight: 700;
-    font-style: italic;
-    padding: 0px;
-    width: 75%;
-  }
+.book-now:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid rgb(255,255,255);
 }
 
 @media (min-width: 768px) {
@@ -180,7 +156,7 @@ body.side-menu-visible #side-menu.side-menu-left {
     border-radius: 25px;
     border: 2px solid white;
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: 25px;
     color: white;
     font-weight: 700;
     font-style: italic;
@@ -203,7 +179,7 @@ body.side-menu-visible #side-menu.side-menu-left {
     border: 2px solid rgb(255,255,255);
     padding: 0px;
     color: black;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -219,7 +195,7 @@ body.side-menu-visible #side-menu.side-menu-left {
     border: 2px solid rgb(255,255,255);
     padding: 0px;
     color: black;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: italic;

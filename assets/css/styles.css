@@ -95,6 +95,7 @@ html, body {
 
 a {
   color: white;
+  background-color: rgba(0,98,204,0);
 }
 
 .permanent-marker {
@@ -118,7 +119,7 @@ a {
 }
 
 .location {
-  font-size: 15px;
+  background-color: #ffffff;
 }
 
 .instagram {

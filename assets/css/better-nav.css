@@ -11,7 +11,7 @@ body.overflow-hidden {
   height: 98.5%;
   overflow-y: auto;
   z-index: 1035;
-  background: rgb(66,73,81);
+  background: #1e2c3b;
   opacity: 0.95;
   padding: 20px 30px;
   color: #333;

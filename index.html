@@ -12,12 +12,14 @@
     <link rel="icon" type="image/jpeg" sizes="512x512" href="assets/img/512x512.jpg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/better-nav.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
@@ -42,22 +44,21 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-dark navbar-expand-md" id="bar-color">
-            <div class="container-fluid"><a class="navbar-brand" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" id="logo-style" href="index.html"><img class="logo-face" src="Raul Barber Logo.png">Raul<span class="text-white">TheBarber</span></a><button data-toggle="collapse"
-                    class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
+            <div class="container-fluid"><a class="navbar-brand" id="logo-style" href="index.html"><img class="logo-face" src="Raul Barber Logo.png">Raul<span class="text-white">TheBarber</span></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto menu-style">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" href="index.html">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" href="prices.html">Prices</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" href="gallery.html">Gallery&nbsp;</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" href="appointments.html">Appointments</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="prices.html">Prices</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery&nbsp;</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="appointments.html">Appointments</a></li>
+                    </ul><i class="fas fa-user-tie"></i></div>
     </div>
-    <div class="container" id="vacation-alert">
+    </nav>
+    </div>
+    <div class="container">
         <div class="row">
-            <div class="col"><div class="alert alert-danger" role="alert"><span><strong>Vacation</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo.</span></div></div>
+            <div class="col"><div class="alert alert-danger" role="alert"><span><strong>Vacation:</strong> I will be out of the shop starting March 13 through March 24 returning to work on March 25.</span></div></div>
         </div>
     </div>
     <section>
@@ -81,17 +82,17 @@
     <section>
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center align-content-center" id="center-bar">
-                <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 text-center text-white d-flex flex-column justify-content-center align-items-center align-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" id="center-info"><a class="btn btn-block book-now" role="button" href="appointments.html">Book Now</a><a class="btn btn-block phone" role="button" href="tel:1-203-401-1160">203-401-1160</a><a class="btn btn-block location" role="button" href="https://goo.gl/maps/Xk6UVArbVWNV7Hc58"><strong><em>2451 E Semoran Blvd, Apopka, FL</em></strong></a></div>
+                <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 text-center text-white d-flex flex-column justify-content-center align-items-center align-content-center" id="center-info"><a class="btn btn-block book-now" role="button" href="appointments.html">Book Now</a><a class="btn btn-block phone" role="button" href="tel:1-203-401-1160">203-401-1160</a><a class="btn btn-block location" role="button" href="https://goo.gl/maps/Xk6UVArbVWNV7Hc58"><strong><em>2451 E Semoran Blvd, Apopka, FL</em></strong></a></div>
             </div>
         </div>
     </section>
     <section id="pics">
         <div class="container">
             <div class="row d-flex justify-content-around align-items-center align-content-center" style="margin: 0;padding: 0;">
-                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><img src="assets/img/dkk.jpg" class="item-pic" /></div>
-                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><img src="assets/img/oscar1.jpg" class="item-pic" /></div>
-                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><img src="assets/img/combover.jpg" class="item-pic" /></div>
-                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src="assets/img/heat.jpg" class="item-pic" /></div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center"><img src="assets/img/dkk.jpg" class="item-pic" /></div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center"><img src="assets/img/oscar1.jpg" class="item-pic" /></div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center"><img src="assets/img/combover.jpg" class="item-pic" /></div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-center"><img src="assets/img/heat.jpg" class="item-pic" /></div>
             </div>
         </div>
     </section>
@@ -135,9 +136,9 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
-    <script src="assets/js/better-nav.js"></script>
-    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/better-nav.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
 
